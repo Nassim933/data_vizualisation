@@ -480,6 +480,8 @@ def main():
     st.sidebar.write("Nassim")
     st.sidebar.write("2025")
     st.sidebar.write("BIA-2")
+    st.sidebar.write("GitHub : https://github.com/Nassim933")
+    st.sidebar.write("LinkedIn : https://www.linkedin.com/in/nassim-nady/")
     st.sidebar.write("#datavz2023efrei")
 
 if __name__ == "__main__":
