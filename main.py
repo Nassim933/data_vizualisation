@@ -142,7 +142,7 @@ def graphique2(df):
 
     zones_geographiques = df['Zone_geographique'].dropna().unique()
     zones_geographiques = [z for z in zones_geographiques if z != "Non Renseigné"]
-    zone_geographique_choisie = st.selectbox("Zone géographique :", zones_geographiques)
+    zone_geographique_choisie = st.selectbox("Zone géographique :", sorted(zones_geographiques))
 
     df_filtered = df[(df['Indicateur'] == indicateur_choisi_2) & (df['Zone_geographique'] == zone_geographique_choisie)]
 
